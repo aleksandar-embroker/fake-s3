@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.18.5
 
 RUN apk add --no-cache --update ruby ruby-dev ruby-bundler python py-pip git build-base libxml2-dev libxslt-dev
 RUN pip install boto s3cmd
